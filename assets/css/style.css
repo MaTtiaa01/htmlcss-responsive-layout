@@ -102,7 +102,10 @@ main section{
     display: flex;
 }
 
-
+.width_100{
+    width: 100%;
+    margin-bottom: 2rem;
+}
 
 
 
@@ -266,6 +269,41 @@ main .planning .plan_container a{
 main .planning_right{
     align-items: flex-end;
 }
+
+/*  start testimonials */
+.testimonials p{
+    font-size: 10px;
+    margin-bottom: 0.8rem;
+}
+.testimonials .testimonials_head h3{
+    color: var(--primary);
+    font-size: 30px;
+    margin: 1rem 0;
+}
+
+.testimonials .testimonials_head {
+    text-align: center;
+}
+
+.testimonials .feedback{
+    background-color: var(--primary);
+    color: var(--lighter);
+    border: 1px solid var(--primary);
+    border-radius: 30px;
+    padding: 1rem;
+    align-items: center;
+}
+
+.testimonials i{
+    font-size: 15px;
+}
+
+.testimonials span{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
 
 
 
