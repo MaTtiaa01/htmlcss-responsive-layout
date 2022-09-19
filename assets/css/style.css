@@ -29,6 +29,10 @@
     flex-wrap: wrap;
 }
 
+.column{
+    flex-direction: column;
+}
+
 [class^="col_"]{
     padding: 0 1rem;
 }
