@@ -20,17 +20,26 @@
 img{
     max-width: 100%;
 }
+
+main section{
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
 /* #region utilities */
 
 .container{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
-
+.container_50{
+    width: 50%;
+    margin: auto;
+}
 .row{
     display: flex;
     margin: 0 -1rem;
     flex-wrap: wrap;
+   
 }
 
 .column{
@@ -92,6 +101,8 @@ img{
 .flex{
     display: flex;
 }
+
+
 
 
 
@@ -164,6 +175,8 @@ header ul{
 
 .app p{
     margin-bottom: 1.5rem;
+    line-height: 20px;
+    font-size: 15px;
 }
 .app a{
     color: var(--lighter);
@@ -184,9 +197,77 @@ main .card{
     background-color: var(--secondary-light);
     border: 1px solid var(--secondary-light);
     border-radius: 20px;
+    padding: 2rem;
 }
 
+main .tools{
+    text-align: center;
+    
+}
+
+main .tools i{
+    font-size: 60px;
+    color: var(--secondary);
+    padding-top: 1rem;
+}
+
+
 /* start planning */
+
+main .planning{
+    background-color: var(--primary);
+    color: var(--lighter);
+    padding: 4rem 0;
+}
+
+main .planning h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main .planning p{
+    font-size: 10px;
+}
+
+main .plan_container{
+    background-color: var(--lighter);
+    text-align: center;
+    border: 1px solid var(--lighter);
+    border-radius: 30px;
+    height: 85%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+
+main .planning .plan_container p{
+    font-style: italic;
+    color: var(--dark);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+main .planning .plan_container h4{
+    font-weight: 800;
+    color: var(--dark);
+}
+
+main .planning .plan_container a{
+    color: var(--dark);
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+main .planning_right{
+    align-items: flex-end;
+}
+
+
 
 
 
