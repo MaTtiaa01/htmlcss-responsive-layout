@@ -16,6 +16,10 @@
 
 
 }
+
+img{
+    max-width: 100%;
+}
 /* #region utilities */
 
 .container{
@@ -85,6 +89,12 @@
     width: calc((100% / 12) * 12);
 }
 
+.flex{
+    display: flex;
+}
+
+
+
 /* #endregion utilities */
 
 /* #region debug */
@@ -104,11 +114,14 @@
 
 header{
     background-color:var(--secondary);
+    
 }
 header nav{
     display: flex;
     justify-content: space-between;
     padding: 1rem 0;
+    align-items: center;
+    
 }
 
 nav .menu_right{
@@ -116,16 +129,75 @@ nav .menu_right{
 
 }
 
+header .menu_right a{
+    text-decoration: none;
+    margin-left: 2rem;
+    color: var(--lighter);
+}
+
+header ul{
+    list-style: none;
+}
+
+#get_started_head{
+    background-color: var(--lighter);
+    color: var(--dark);
+    border: 1px solid var(--lighter);
+    border-radius: 40px;
+    padding: 0.4rem;
+}
+
+
 
 
 /* #endregion header */
 
+/* #region main */
 
+/* star app */
+
+.app h3{
+    color: var(--secondary);
+    margin: 1rem 0;
+}
+
+
+.app p{
+    margin-bottom: 1.5rem;
+}
+.app a{
+    color: var(--lighter);
+    padding: 0.5rem 2rem;
+    border: 1px solid var(--secondary);
+    border-radius: 40px;
+    margin-top: 1rem;
+    text-decoration: none;
+    background-color: var(--secondary);
+    font-size: 15px;
+}
+
+.app img{
+    margin-top: 2.5rem;
+}
+
+main .card{
+    background-color: var(--secondary-light);
+    border: 1px solid var(--secondary-light);
+    border-radius: 20px;
+}
+
+/* start planning */
+
+
+
+
+
+/* #endregion main */
 
 
 /* #region responsive */
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 768px) {
     
     header .container{
         width: 100%;
@@ -145,7 +217,7 @@ nav .menu_right{
 
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 480px) {
     header .container{
         width: 100%;
         padding: 1rem 1rem;
