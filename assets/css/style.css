@@ -3,3 +3,121 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+
+    --secondary: #0084FD;
+    --dark: #171717;
+    --primary: #9792E4;
+    --secondary-light: #B5DDFF;
+    --similgrey: #CDCBF2;
+    --attention: #FDC15F;
+    --lighter: #FFFFFF;
+
+
+}
+/* #region utilities */
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    margin: 0 -1rem;
+    flex-wrap: wrap;
+}
+
+[class^="col_"]{
+    padding: 0 1rem;
+}
+
+.col_1{
+    width: calc((100% / 12) * 1);
+}
+
+.col_2{
+    width: calc((100% / 12) * 2);
+}
+
+.col_3{
+    width: calc((100% / 12) * 3);
+}
+
+.col_4{
+    width: calc((100% / 12) * 4);
+}
+
+.col_5{
+    width: calc((100% / 12) * 5);
+}
+
+.col_6{
+    width: calc((100% / 12) * 6);
+}
+
+.col_7{
+    width: calc((100% / 12) * 7);
+}
+
+.col_8{
+    width: calc((100% / 12) * 8);
+}
+
+.col_9{
+    width: calc((100% / 12) * 9);
+}
+
+.col_10{
+    width: calc((100% / 12) * 10);
+}
+
+.col_11{
+    width: calc((100% / 12) * 11);
+}
+
+.col_12{
+    width: calc((100% / 12) * 12);
+}
+
+/* #endregion utilities */
+
+/* #region debug */
+
+.debug header{
+    height: 80px;
+}
+
+.debug [class^="col_"]{
+    height: 200px;
+    border: 2px solid red;
+}
+
+/* #endregion debug */
+
+/* #region header */
+
+header{
+    background-color:var(--secondary);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+nav .menu_right{
+    display: flex;
+
+}
+
+
+
+/* #endregion header */
+
+
+
+
+/* #region responsive */
+
