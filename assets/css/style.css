@@ -125,3 +125,23 @@ nav .menu_right{
 
 /* #region responsive */
 
+@media screen and (max-width: 810px) {
+    
+    header .container{
+        width: 100%;
+        padding: 1rem 1rem;
+        
+    }
+
+    .col_md_12{
+        width: 100%;
+    }
+
+    .col_md_6{
+        width: 50%;
+    }
+
+
+
+}
+
