@@ -456,6 +456,34 @@ main .call_to_action{
 /* #endregion main */
 
 
+
+/* #region footer */
+
+footer{
+    background-color: var(--dark);
+    padding: 2rem 0;
+}
+
+footer .container_50{
+    text-align: center;
+    color: var(--lighter);
+}
+
+footer .container_50:first-child p{
+    font-size: 10px;
+    margin-bottom: 2rem;
+}
+
+footer .container_50 a{
+    color: var(--primary);
+}
+
+/* #endregion footer */
+
+
+
+
+
 /* #region responsive */
 
 @media screen and (max-width: 768px) {
