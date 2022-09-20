@@ -21,6 +21,10 @@ img{
     max-width: 100%;
 }
 
+p{
+    line-height: 25px;
+}
+
 main section{
     padding-top:2rem;
     padding-bottom: 2rem;
@@ -356,7 +360,47 @@ main .planning_right{
 }
 
 
+/*  start about us */
 
+
+.about_us .about_left h2{
+    color: var(--primary);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about_us .about_left p{
+    margin: 1.5rem 0;
+    font-size: 14px;
+}
+
+.about_us .about_right p{
+    color: var(--primary);
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about_us .about_right a{
+    background-color: var(--primary);
+    color: var(--lighter);
+    padding: 0.5rem;
+    font-size: 10px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.about_us .about_right{
+    position: relative;
+}
+
+.about_us .about_right i{
+    font-size: 30px;
+    background-color: transparent;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
 
 
 /* #endregion main */
