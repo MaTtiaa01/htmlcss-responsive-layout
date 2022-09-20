@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'PT Sans', sans-serif;
+}
 :root{
 
     --secondary: #0084FD;
@@ -172,7 +174,7 @@ header ul{
 
 /* #region main */
 
-/* star app */
+/* start app */
 
 .app h3{
     color: var(--secondary);
@@ -205,6 +207,7 @@ main .app .card{
     border: 1px solid var(--secondary-light);
     border-radius: 20px;
     padding: 2rem;
+    padding-bottom: 0;
 }
 
 main .app .tools{
@@ -302,10 +305,16 @@ main .planning_right{
     font-size: 15px;
 }
 
-.testimonials span{
+.testimonials .test_name{
     font-weight: bold;
     font-size: 12px;
 }
+
+.testimonials .box{
+    padding-top: 2rem;
+    padding-left: 7rem;
+    margin-left: 4rem;
+}    
 
 
 /* start benefits */
