@@ -537,6 +537,9 @@ footer .container_50 a{
     }
 /* #region main */
 
+.app .col_8 .card{
+    flex-direction: column;
+}
 
 .planning .container_50{
     padding: 1.5rem;
@@ -551,7 +554,9 @@ footer .container_50 a{
     font-size: 15px;
 }
 
-
+.testimonials .row{
+    padding: 1rem;
+}
 
 
 /* #endregion main */
@@ -570,6 +575,55 @@ footer .container_50 a{
 
     .col_small_12{
         width: 100%;
+    }
+
+
+    .app .col_8 .card{
+        flex-direction: column;
+    }
+
+    .planning .planning_left h3{
+        font-size: 35px;
+    }
+
+    .planning .row{
+        padding: 2rem;
+    }
+
+
+    .testimonials .row{
+        padding: 1.5rem;
+    }
+
+    .testimonials .feedback{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .testimonials .box{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .testimonials .feedback img{
+        width: 60%;
+    }
+
+
+    .about_us .row{
+        padding: 1rem;
+    }
+
+    .call_to_action .container_50{
+        width: 90%;
+    }
+
+
+
+
+    footer .container_50{
+        width: 90%;
     }
 }
 
