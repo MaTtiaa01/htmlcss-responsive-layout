@@ -167,7 +167,9 @@ header ul{
     padding: 0.4rem;
 }
 
-
+header .menu_bars{
+    display: none;
+}
 
 
 /* #endregion header */
@@ -497,11 +499,29 @@ footer .container_50 a{
 
 @media screen and (max-width: 768px) {
     
+    /* #region header */
     header .container{
         width: 100%;
         padding: 1rem 1rem;
         
     }
+
+    header .menu_bars{
+        display: block;
+        font-size: 30px;
+    }
+
+    header .menu_right{
+        display: none;
+    }
+
+
+
+
+    /* #endregion header */
+
+
+
 
     .col_md_12{
         width: 100%;
