@@ -318,7 +318,7 @@ main .planning_right{
 
 .benefits h2{
     color: var(--lighter);
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
 }
 .benefits .col_4{
@@ -401,6 +401,56 @@ main .planning_right{
     right: 1rem;
     top: 1rem;
 }
+
+/* start call to action */
+main .call_to_action{
+    text-align: center;
+    background-color: var(--primary);
+}
+.call_to_action h6{
+    color: var(--similgrey);
+    margin-bottom: 1rem;
+    
+}
+
+.call_to_action h3{
+    color: var(--lighter);
+    font-size: 35px;
+}
+
+.call_to_action h2{
+    color: var(--attention);
+    font-size: 60px;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+
+.call_to_action p{
+    color: var(--lighter);
+    margin-bottom: 2rem;
+    font-size: 15px;
+}
+
+.call_to_action .btn_call_to_action{
+    color: var(--primary);
+    background-color: var(--lighter);
+    padding: 0.8rem 2rem;
+    font-size: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+.call_to_action .copyright{
+    color: var(--lighter);
+    margin-top: 2rem;
+    font-size: 10px;
+}
+
+.call_to_action .copyright a{
+    color: var(--lighter);
+}
+
 
 
 /* #endregion main */
