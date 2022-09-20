@@ -45,7 +45,7 @@ main section{
     display: flex;
     margin: 0 -1rem;
     flex-wrap: wrap;
-    row-gap: 1rem;
+    /* row-gap: 1rem; */
 }
 
 .column{
@@ -212,6 +212,13 @@ main .app .card{
     padding-bottom: 0;
 }
 
+main .app .col_8{
+    padding: 1rem;
+}
+
+main .app .col_4{
+    padding: 1rem;
+}
 main .app .tools{
     text-align: center;
     
@@ -614,6 +621,8 @@ footer .container_50 a{
     .about_us .row{
         padding: 1rem;
     }
+
+   
 
     .call_to_action .container_50{
         width: 90%;
