@@ -246,7 +246,7 @@ main .plan_container{
     text-align: center;
     border: 1px solid var(--lighter);
     border-radius: 30px;
-    height: 85%;
+    
     padding-top: 1rem;
     padding-bottom: 2rem;
     padding-left: 3rem;
@@ -522,7 +522,7 @@ footer .container_50 a{
 
 
 
-
+/* utilities */
     .col_md_12{
         width: 100%;
     }
@@ -530,6 +530,32 @@ footer .container_50 a{
     .col_md_6{
         width: 50%;
     }
+
+    .container{
+        width: 100%;
+        padding: 1rem;
+    }
+/* #region main */
+
+
+.planning .container_50{
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.planning .planning_left h3{
+    font-size: 60px;
+}
+
+.planning .planning_left p{
+    font-size: 15px;
+}
+
+
+
+
+/* #endregion main */
+
 
 
 
